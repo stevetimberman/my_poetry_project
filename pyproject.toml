@@ -1,10 +1,14 @@
 [tool.poetry]
 name = "my-poetry-project"
 version = "0.1.0"
-description = ""
+description = "CLI for generating projects using Python Poetry."
 authors = ["steventimberman <stevetimberman@gmail.com>"]
+maintainers = ["steventimberman <stevetimberman@gmail.com>"]
 readme = "README.md"
 packages = [{include = "my_poetry_project"}]
+keywords = [
+
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
